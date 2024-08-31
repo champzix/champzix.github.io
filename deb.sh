@@ -576,7 +576,6 @@ d-i keyboard-configuration/xkb-keymap select us
 # Network configuration
 
 d-i netcfg/choose_interface select $interface
-d-i netcfg/wireless_show_essids select manual
 d-i netcfg/wireless_essid string Black
 d-i netcfg/wireless_essid_again string Black
 d-i netcfg/wireless_security_type select wpa
